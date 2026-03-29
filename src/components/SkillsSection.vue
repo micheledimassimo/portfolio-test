@@ -105,9 +105,9 @@ export default {
   margin-bottom: 15px;
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   
-  /* Ensure Github icon is visible in dark mode */
+  /* Ensure Github icon is visible in both dark and light modes */
   i[class*="github"] {
-    color: #ffffff;
+    color: var(--text-light);
   }
 }
 

@@ -72,7 +72,7 @@ export default {
   font-size: 4.5rem;
   line-height: 1.1;
   margin-bottom: 1.5rem;
-  background: linear-gradient(to right, #fff, #a5b4fc);
+  background: linear-gradient(135deg, var(--text-light), var(--accent-primary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

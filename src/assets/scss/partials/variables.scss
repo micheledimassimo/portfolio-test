@@ -1,9 +1,36 @@
-$bg-dark: #0a0b10;
-$bg-card: #13141c;
-$bg-card-hover: #1c1e29;
-$text-light: #f8fafc;
-$color-text-muted: #94a3b8;
-$accent-primary: #4f46e5;
-$accent-secondary: #06b6d4;
-$glass-bg: rgba(19, 20, 28, 0.6);
-$glass-border: rgba(255, 255, 255, 0.05);
+:root {
+  // Light Theme (from whitespace images)
+  --bg-dark: #fafafa;
+  --bg-card: #f0f0f0;
+  --bg-card-hover: #e0e0e0;
+  --text-light: #14141e;
+  --color-text-muted: #64748b;
+  --accent-primary: #46c8fa;
+  --accent-secondary: #50dcfa;
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  // Dark Theme (from dark images)
+  --bg-dark: #080a0f;
+  --bg-card: #111218;
+  --bg-card-hover: #1a1c24;
+  --text-light: #fafafa;
+  --color-text-muted: #94a3b8;
+  --accent-primary: #3ce6fa;
+  --accent-secondary: #32d2fa;
+  --glass-bg: rgba(17, 18, 24, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.05);
+}
+
+// Map SCSS variables to CSS variables so components immediately inherit dynamic theming without refactors
+$bg-dark: var(--bg-dark);
+$bg-card: var(--bg-card);
+$bg-card-hover: var(--bg-card-hover);
+$text-light: var(--text-light);
+$color-text-muted: var(--color-text-muted);
+$accent-primary: var(--accent-primary);
+$accent-secondary: var(--accent-secondary);
+$glass-bg: var(--glass-bg);
+$glass-border: var(--glass-border);
