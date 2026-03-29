@@ -14,7 +14,7 @@ export default {
           I build modern, scalable, and stunning web experiences. From crafting pixel-perfect interfaces to architecting robust backends, I bring ideas to life through code.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary btn-glow">View My Work</a>
+          <router-link to="/projects" class="btn btn-primary btn-glow">View My Work</router-link>
           <a href="#contact" class="btn btn-outline">Let's Talk</a>
         </div>
       </div>

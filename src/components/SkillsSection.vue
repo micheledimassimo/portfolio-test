@@ -7,11 +7,14 @@ export default {
         { name: 'HTML5', icon: 'devicon-html5-plain colored' },
         { name: 'CSS3', icon: 'devicon-css3-plain colored' },
         { name: 'JavaScript', icon: 'devicon-javascript-plain colored' },
-        { name: 'PHP', icon: 'devicon-php-plain colored' },
-        { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
+        { name: 'Bootstrap', icon: 'devicon-bootstrap-plain colored' },
         { name: 'Vue.js', icon: 'devicon-vuejs-plain colored' },
+        { name: 'PHP', icon: 'devicon-php-plain colored' },
+        { name: 'Laravel', icon: 'devicon-laravel-original colored' },
+        { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
         { name: 'Vite', icon: 'devicon-vitejs-plain colored' },
-        { name: 'Git', icon: 'devicon-git-plain colored' }
+        { name: 'Git', icon: 'devicon-git-plain colored' },
+        { name: 'GitHub', icon: 'devicon-github-original' }
       ]
     }
   }
@@ -101,6 +104,11 @@ export default {
   font-size: 4.5rem;
   margin-bottom: 15px;
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  /* Ensure Github icon is visible in dark mode */
+  i[class*="github"] {
+    color: #ffffff;
+  }
 }
 
 .skill-name {
