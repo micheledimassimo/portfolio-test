@@ -48,19 +48,7 @@ export default {
 
 .skills-section {
   position: relative;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    bottom: -50px;
-    left: -100px;
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(236, 72, 153, 0.2) 0%, rgba(236, 72, 153, 0) 70%);
-    border-radius: 50%;
-    filter: blur(60px);
-    z-index: -1;
-  }
+  padding-top: 40px;
 }
 
 .section-title {

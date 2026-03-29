@@ -1,27 +1,29 @@
 :root {
-  // Light Theme (from whitespace images)
-  --bg-dark: #fafafa;
-  --bg-card: #f0f0f0;
-  --bg-card-hover: #e0e0e0;
-  --text-light: #14141e;
-  --color-text-muted: #64748b;
-  --accent-primary: #46c8fa;
-  --accent-secondary: #50dcfa;
-  --glass-bg: rgba(255, 255, 255, 0.6);
+  // Light Theme
+  --bg-dark: linear-gradient(31deg, rgba(35, 146, 235, 1) 0%, rgba(255, 255, 255, 1) 45%);
+  --bg-card: #f4f5f7;
+  --bg-card-hover: #e2e8f0;
+  --text-light: #181824;
+  --color-text-muted: #475569;
+  --accent-primary: #1e88e5;
+  --accent-secondary: #039be5;
+  --glass-bg: rgba(255, 255, 255, 0.85);
   --glass-border: rgba(0, 0, 0, 0.1);
+  --hero-logo-img: url('/01D23898-3115-427B-A0B9-D78426951F28.png');
 }
 
 [data-theme='dark'] {
-  // Dark Theme (from dark images)
-  --bg-dark: #080a0f;
-  --bg-card: #111218;
-  --bg-card-hover: #1a1c24;
-  --text-light: #fafafa;
-  --color-text-muted: #94a3b8;
+  // Dark Theme
+  --bg-dark: linear-gradient(31deg, rgba(35, 146, 235, 1) 0%, rgba(28, 27, 37, 1) 45%);
+  --bg-card: #282a36;
+  --bg-card-hover: #323644;
+  --text-light: #ffffff;
+  --color-text-muted: #f1f5f9;
   --accent-primary: #3ce6fa;
   --accent-secondary: #32d2fa;
-  --glass-bg: rgba(17, 18, 24, 0.6);
-  --glass-border: rgba(255, 255, 255, 0.05);
+  --glass-bg: rgba(18, 18, 26, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --hero-logo-img: url('/F29C4E1A-EC75-4BEC-9C68-776FB75F3FF5.png');
 }
 
 // Map SCSS variables to CSS variables so components immediately inherit dynamic theming without refactors

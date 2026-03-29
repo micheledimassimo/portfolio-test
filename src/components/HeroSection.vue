@@ -18,6 +18,11 @@ export default {
           <a href="#contact" class="btn btn-outline">Let's Talk</a>
         </div>
       </div>
+      
+      <!-- Sezione Immagine Profilo/Logo -->
+      <div class="hero-image-wrapper">
+        <div class="hero-logo"></div>
+      </div>
     </div>
   </section>
 </template>
@@ -32,33 +37,40 @@ export default {
   position: relative;
   overflow: hidden;
   padding-top: 150px;
-  
-  // Decorative background blob
-  &::before {
-    content: '';
-    position: absolute;
-    top: -100px;
-    right: -100px;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(79, 70, 229, 0.4) 0%, rgba(6, 182, 212, 0) 70%);
-    border-radius: 50%;
-    filter: blur(60px);
-    z-index: -1;
-    animation: blob-float 10s infinite alternate;
-  }
 }
 
 .hero-content {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .hero-text {
+  flex: 1;
   max-width: 650px;
   padding: 50px;
   text-align: left;
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo {
+  width: 100%;
+  max-width: 450px;
+  height: 450px;
+  background-image: var(--hero-logo-img);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.4s ease, transform 0.4s ease;
+  animation: float 6s ease-in-out infinite;
 }
 
 .greeting {
@@ -98,7 +110,7 @@ export default {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, $accent-primary, $accent-secondary);
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   color: #fff;
   border: none;
   
@@ -111,12 +123,13 @@ export default {
 
 .btn-outline {
   background: transparent;
-  color: $text-light;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--text-light);
+  border: 1px solid var(--text-light);
+  opacity: 0.8;
   
   &:hover {
+    opacity: 1;
     background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.4);
     transform: translateY(-2px);
   }
 }
@@ -126,12 +139,33 @@ export default {
   100% { transform: translate(-30px, 50px) scale(1.1); }
 }
 
-@media (max-width: 768px) {
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+@media (max-width: 992px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
   .hero-text {
+    text-align: center;
     padding: 30px;
   }
+  
+  .hero-actions {
+    justify-content: center;
+  }
+  
   .title {
     font-size: 3rem;
+  }
+  
+  .hero-logo {
+    height: 300px;
   }
 }
 </style>

@@ -78,20 +78,6 @@ export default {
   padding-bottom: 100px;
   min-height: 80vh;
   position: relative;
-  
-  // Decorative blur
-  &::after {
-    content: '';
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, rgba(79, 70, 229, 0) 70%);
-    border-radius: 50%;
-    filter: blur(60px);
-    z-index: -1;
-  }
 }
 
 .page-header {
