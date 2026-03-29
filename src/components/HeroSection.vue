@@ -52,6 +52,7 @@ export default {
   max-width: 650px;
   padding: 50px;
   text-align: left;
+  box-shadow: 0 10px 40px rgba(35, 146, 235, 0.35); /* Azzurro palette ombra */
 }
 
 .hero-image-wrapper {

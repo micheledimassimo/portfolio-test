@@ -18,10 +18,9 @@ export default {
       </div>
       
       <div class="footer-socials">
-        <!-- These are placeholders for real social links, using standard FontAwesome/Bootstrap icons if available, or just text/SVGs -->
-        <a href="#" class="social-link" title="GitHub">GH</a>
-        <a href="#" class="social-link" title="LinkedIn">IN</a>
-        <a href="#" class="social-link" title="Twitter">TW</a>
+        <a href="#" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
       </div>
     </div>
     
@@ -72,10 +71,9 @@ export default {
   height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.05);
-  color: $text-light;
+  color: var(--text-light);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   transition: all 0.3s ease;
   
   &:hover {
