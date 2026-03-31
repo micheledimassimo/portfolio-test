@@ -15,7 +15,7 @@ export default {
         </p>
         <div class="hero-actions">
           <router-link to="/projects" class="btn btn-primary btn-glow">View My Work</router-link>
-          <a href="#contact" class="btn btn-outline">Let's Talk</a>
+          <router-link to="/contact" class="btn btn-outline">Let's Talk</router-link>
         </div>
       </div>
       

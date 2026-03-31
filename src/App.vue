@@ -57,7 +57,7 @@ export default {
 <style lang="scss">
 @use 'assets/scss/main' as *;
 
-/* Semplici transizioni di routing per un feeling più moderno */
+/* Semplici transizioni di routing*/
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s ease, transform 0.3s ease;

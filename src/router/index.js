@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/projects',
       name: 'projects',
       component: () => import('../pages/ProjectsPage.vue') // Lazy load for performance
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../pages/ContactPage.vue')
     }
   ],
   scrollBehavior(to, from, savedPosition) {

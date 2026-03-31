@@ -37,12 +37,6 @@ export default {
       <div class="page-header text-center">
         <h1 class="page-title">My <span class="text-gradient">Projects</span></h1>
         <p class="text-muted">A collection of my recent work and explorations.</p>
-        
-        <div class="back-action">
-          <router-link to="/" class="btn btn-outline">
-             Back to Home
-          </router-link>
-        </div>
       </div>
 
       <div class="projects-grid">
@@ -66,6 +60,11 @@ export default {
           </div>
         </div>
       </div>
+      <div class="back-action">
+          <router-link to="/" class="btn btn-outline">
+             Back to Home
+          </router-link>
+        </div>
     </div>
   </div>
 </template>
@@ -90,6 +89,7 @@ export default {
 
 .back-action {
   margin-top: 30px;
+  text-align: center;
 }
 
 .projects-grid {
