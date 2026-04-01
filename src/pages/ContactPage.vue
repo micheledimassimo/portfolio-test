@@ -21,8 +21,9 @@ export default {
           <ul class="contact-list">
             <li>
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto:hello@example.com">hello@example.com</a>
+              <a href="mailto:devbymichele@gmail.com">devbymichele@gmail.com</a>
             </li>
+            
             <li>
               <i class="fa-solid fa-location-dot"></i>
               <span>Milano, Italia (Remote)</span>
@@ -30,9 +31,9 @@ export default {
           </ul>
 
           <div class="social-links-contact">
-            <a href="#" class="social-badge" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
-            <a href="#" class="social-badge" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-            <a href="#" class="social-badge" title="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://github.com/micheledimassimo" class="social-badge" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/micheledimassimo" class="social-badge" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/devbymichele" class="social-badge" title="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
           </div>
         </div>
 
