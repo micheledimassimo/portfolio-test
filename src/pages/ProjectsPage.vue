@@ -6,24 +6,24 @@ export default {
       projects: [
         {
           id: 1,
-          title: 'E-Commerce Platform',
-          description: 'A full-stack e-commerce solution with cart and checkout functionalities built with Vue and PHP.',
-          techStack: ['Vue.js', 'PHP', 'MySQL', 'CSS3'],
+          title: 'Sams SRL',
+          description: 'Realizzazione del sito web per Sams SRL. Sito multipagina e multilinuga, gestito dinamicamente con Vue Router',
+          techStack: ['Vue.js', 'Vue Router', 'Scss'],
           link: '#'
         },
-        {
+        /* {
           id: 2,
           title: 'Admin Dashboard',
           description: 'A responsive, dark-mode analytics dashboard showing real-time metrics.',
           techStack: ['HTML5', 'CSS3', 'JavaScript', 'Vite'],
           link: '#'
-        },
+        }, */
         {
           id: 3,
-          title: 'Social Web App',
-          description: 'A real-time scalable social network prototype handling thousands of queries.',
-          techStack: ['Vue.js', 'JavaScript', 'MySQL', 'Git'],
-          link: '#'
+          title: 'DeliveBoo',
+          description: 'Progetto di gruppo per la creazione di una piattaforma di delivery di cibo a domicilio. ',
+          techStack: ['Vue.js', 'Laravel', 'MySQL', 'PHP', 'Axios'],
+          link: 'https://github.com/micheledimassimo/deliveboo-frontend-team3/blob/main/README.md'
         }
       ]
     }
@@ -56,7 +56,7 @@ export default {
             </div>
           </div>
           <div class="project-footer">
-            <a :href="project.link" class="btn btn-primary btn-sm">View Project</a>
+            <a :href="project.link" target="blank" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
       </div>

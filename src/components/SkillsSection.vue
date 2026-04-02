@@ -14,7 +14,8 @@ export default {
         { name: 'MySQL', icon: 'devicon-mysql-plain colored' },
         { name: 'Vite', icon: 'devicon-vitejs-plain colored' },
         { name: 'Git', icon: 'devicon-git-plain colored' },
-        { name: 'GitHub', icon: 'devicon-github-original' }
+        { name: 'GitHub', icon: 'devicon-github-original' },
+        { name: 'Axios', icon: 'devicon-axios-plain colored' }
       ]
     }
   }

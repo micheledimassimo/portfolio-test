@@ -31,9 +31,9 @@ export default {
           </ul>
 
           <div class="social-links-contact">
-            <a href="https://github.com/micheledimassimo" class="social-badge" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
-            <a href="https://www.linkedin.com/in/micheledimassimo" class="social-badge" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-            <a href="https://www.instagram.com/devbymichele" class="social-badge" title="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://github.com/micheledimassimo" target="_blank" class="social-badge" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/micheledimassimo" target="_blank" class="social-badge" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/devbymichele" target="_blank" class="social-badge" title="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ export default {
           <h3>Curriculum Vitae</h3>
           <p class="text-muted">Esplora la mia esperienza lavorativa, accademica e le mie competenze tecniche complete.</p>
           <!-- Il tag # funge da placeholder, potrai inserire il link al PDF definitivo quando sarà pronto -->
-          <a href="#" target="_blank" class="btn btn-primary btn-glow mt-3">
+          <a href="/public/cv/Michele-Di-Massimo.pdf" target="_blank" class="btn btn-primary btn-glow mt-3">
             <i class="fa-solid fa-download"></i> Scarica CV
           </a>
         </div>
