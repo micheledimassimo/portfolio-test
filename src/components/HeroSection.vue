@@ -37,6 +37,7 @@ export default {
   position: relative;
   overflow: hidden;
   padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 .hero-content {
@@ -148,8 +149,15 @@ export default {
 
 @media (max-width: 992px) {
   .hero-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: center;
+    
+  }
+  
+  .hero-image-wrapper {
+    order: -1;
+    width: 100%;
+    margin-bottom: 20px;
   }
   
   .hero-text {

@@ -103,10 +103,12 @@ export default {
   flex-direction: column;
   height: 100%;
   overflow: hidden;
+  transition: all 0.3s ease;
   
   &:hover {
     transform: translateY(-10px);
-    border-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(35, 146, 235, 0.5);
+    box-shadow: 0 10px 30px rgba(35, 146, 235, 0.2);
   }
 }
 
@@ -145,8 +147,8 @@ export default {
 
 .project-footer {
   padding: 20px 30px;
-  background: rgba(0, 0, 0, 0.2);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: transparent;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .btn-outline {

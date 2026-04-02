@@ -18,9 +18,9 @@ export default {
       </div>
       
       <div class="footer-socials">
-        <a href="#" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="#" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="#" class="social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/micheledimassimo" class="social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/micheledimassimo" class="social-link" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/devbymichele" class="social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
       </div>
     </div>
     
