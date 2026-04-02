@@ -6,7 +6,7 @@ export default {
       projects: [
         {
           id: 1,
-          title: 'Sams SRL',
+          title: 'Sams SRL - W.I.P',
           description: 'Realizzazione del sito web per Sams SRL. Sito multipagina e multilinuga, gestito dinamicamente con Vue Router',
           techStack: ['Vue.js', 'Vue Router', 'Scss'],
           link: '#'
