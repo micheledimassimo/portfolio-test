@@ -45,7 +45,7 @@ export default {
           <h3>Curriculum Vitae</h3>
           <p class="text-muted">Esplora la mia esperienza lavorativa, accademica e le mie competenze tecniche complete.</p>
           <!-- Il tag # funge da placeholder, potrai inserire il link al PDF definitivo quando sarà pronto -->
-          <a href="/public/cv/Michele-Di-Massimo.pdf" target="_blank" class="btn btn-primary btn-glow mt-3">
+          <a href="/cv/Michele-Di-Massimo.pdf" target="_blank" class="btn btn-primary btn-glow mt-3">
             <i class="fa-solid fa-download"></i> Scarica CV
           </a>
         </div>
