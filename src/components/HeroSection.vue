@@ -11,11 +11,14 @@ export default {
         <h2 class="greeting">Hi, I'm <span class="text-gradient">Michele</span></h2>
         <h1 class="title">Full Stack Developer</h1>
         <p class="description text-muted">
-          I build modern, scalable, and stunning web experiences. From crafting pixel-perfect interfaces to architecting robust backends, I bring ideas to life through code.
+          Realizzo siti web moderni, responsivi e ottimizzati per i motori di ricerca. Dalla progettazione all'implementazione, mi occupo di ogni aspetto dello sviluppo web.
+          <br>
+          Hai bisogno di un sito web? Contattami e realizzeremo insieme il tuo progetto.
         </p>
+        
         <div class="hero-actions">
-          <router-link to="/projects" class="btn btn-primary btn-glow">View My Work</router-link>
-          <router-link to="/contact" class="btn btn-outline">Let's Talk</router-link>
+          <router-link to="/projects" class="btn btn-primary btn-glow">I Miei Lavori</router-link>
+          <router-link to="/contact" class="btn btn-outline">Contattami</router-link>
         </div>
       </div>
       

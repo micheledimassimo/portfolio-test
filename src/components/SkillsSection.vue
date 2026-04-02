@@ -26,7 +26,7 @@ export default {
   <section class="skills-section" id="skills">
     <div class="container-custom text-center">
       <h2 class="section-title">My <span class="text-gradient">Tech Stack</span></h2>
-      <p class="section-subtitle text-muted">Technologies I work with daily</p>
+      <p class="section-subtitle text-muted">Tecnologie che utilizzo quotidianamente</p>
       
       <div class="skills-grid">
         <div 
